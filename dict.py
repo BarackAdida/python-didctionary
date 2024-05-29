@@ -9,7 +9,6 @@ class Employee:
             print("First name must be a string")
         else:
             print(f"hello {self.first} {self._last}")
-
     @property
     def last(self):
         return self._last
