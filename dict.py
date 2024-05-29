@@ -3,6 +3,7 @@ class Employee:
         # print(self)
         self.first = first
         self.last = last
+        # self.employer = employer
 
     def hello(self):
         print(f"hello {self.first} {self.last}")
@@ -33,8 +34,9 @@ class Employee:
 
 emp_1 = Employee("1", "Barack")
 emp_2 = Employee("Lapilly", "Pilly")
+# emp_3 = Employee("Moringa", "School")
 
 print(emp_1.__dict__)
 print(emp_2.__dict__)
-
+# print(emp_3.__dict__)
 # emp_1.__init__()
